@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    /* opacity: 0.5; */
+} 
+
+/* --HEADER NAV STYLE-- */
+
+header {
+    background-image: url("asset/images/netflixbg.jpg");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+   
+  
+   
+
+
+}
+
+.navimg {
+    width: 150px;
+    position: relative;
+            z-index: 50;
+    margin-top: 10px;
+}
+
+.navul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.navbtna {
+    color: white;
+    background-color: grey;
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    
+
+}
+
+.navbtna:hover{
+    background-color:rgb(77, 77, 77) ;
+}
+
+.navbtnb {
+    color: white;
+    background-color: rgb(206, 16, 16);
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    z-index: 50;
+}
+.navbtnb:hover{
+    background-color:rgb(145, 17, 17) ;
+}
+
+
+/* --HEADER DIV STYLE-- */
+
+
+
+.headerdiv {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 50px;
+    /* background-color: black; */
+    padding: 40px;
+    font-weight: 500;
+    position: relative;
+    z-index: 10;
+
+}
+
+.headerdiv p {
+    margin: 5px;
+
+
+}
+
+.headerbtn {
+    margin-top: 8px;
+
+}
+
+  hr{
+            height: 1px;
+            color: rgba(255, 255, 255, 0.085);
+        }
+
+/* --STYLE FOR SECTION ONE-- */
+
+.secone {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50vh;
+            background-color: black;
+            /* opacity: 0.5; */
+            color: white;
+            width: 50vw;
+            margin: auto;
+            
+        }
+
+        .sectext {
+
+            /* position: relative;
+               z-index: 10; */
+            font-size: 18px;
+            font-weight: 500;
+            /* margin-right: 50px; */
+
+        }
+
+        .secimg {
+         
+            /* position: relative;
+               z-index: 10; */
+               background-color: grey;
+        }
+
+        /* --STYLE FOR FAQ-- */
+
+          .faq {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: black;
+            height: 75vh;
+            padding: 30px;
+        }
+        .faqs{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 50vw;
+            background-color: grey;
+            color: white;
+            height: 50px;
+            padding: 0px 20px;
+            margin-bottom: 5px;
+           
+        }
+           .faqimg{
+                width: 25px;
+                height: 25px;
+            }
+            .faq >h1{
+                color: white;
+                margin-bottom: 20px;
+            }
+              .faq > p{
+                color: white;
+                padding-top: 25px;
+                font-size: 15px;
+               
+            }
+
+            /* --STYLE FOR FOOTER-- */
+
+                .footer {
+            display: flex;
+            justify-content: space-evenly;
+            height: 50vh;
+            background-color: rgb(0, 0, 0);
+            align-items: center;
+            color: white;
+
+        }
+
+        .foot{
+            line-height: 30px;
+        }
